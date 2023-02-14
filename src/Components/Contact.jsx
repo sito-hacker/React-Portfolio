@@ -1,23 +1,22 @@
 import React from 'react'
 import { useRef } from 'react';
-// import emailjs from '@emailjs-com';
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 
 
 const Contact = () => {
 
    const form = useRef();
 
-  // const sendEmail = (e) => {
-  //   e.preventDefault();
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  //   emailjs.sendForm('service_c5qnn4g', 'template_2u91all', form.current, 'FDLG_ptP-L8QgQ9SE')
-  //     .then((result) => {
-  //         console.log(result.text);
-  //     }, (error) => {
-  //         console.log(error.text);
-  //     });
-  // };
+    emailjs.sendForm('service_yxqkf6s', 'template_2u91all', form.current, 'FDLG_ptP-L8QgQ9SE')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
 
   return (
     <section class="contact-me" id="contact-me">
@@ -49,14 +48,11 @@ const Contact = () => {
                         </div>   
                     </div>
         
-                    <form id="contact-form" > 
-                        
+                    <form id="contact-form" ref={form} onSubmit={sendEmail}>                         
                         <input class="input-field field" type="text" name="name" placeholder="Your Name" required/>
-                        <input type="hidden" name="_subject" value="Portfolio Website Enquiry!"/>   
-                        <input class="input-field field" type="text" name="email" placeholder="Your Email" required/>
-        
-                        <textarea class="input-field field" name="message" placeholder="Your Message" required></textarea>                        
-                        
+                        {/* <input type="text" class="input-field field" name="subject" value="Portfolio Website Enquiry!"/>    */}
+                        <input class="input-field field" type="text" name="email" placeholder="Your Email" required/>        
+                        <textarea class="input-field field" name="message" placeholder="Your Message" required></textarea> 
                         <input id="submit-btn" type="submit" value="Send" class="field"/>
                     </form>
                 </div>
