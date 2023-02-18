@@ -26,7 +26,7 @@ const Contact = () => {
   
   return (
     <section class="contact-me" id="contact-me">
-      {!openModal && <PopUp closeModal={setOpenModal}/>}
+      {openModal && <PopUp closeModal={setOpenModal}/>}
       <div class="container">
         <h1 class="section-heading">Get In Touch</h1>
         <div class="contact-me-content">
