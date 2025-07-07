@@ -7,7 +7,7 @@ const HeroSection = () => {
                 
                     <div class="hero-data">
                         <h1 class="h1">
-                            Hi,<br/> I'm <b>Nsikak Akpan</b>.<br/>Frontend Developer
+                            Hi,<br/> I'm <b>Thomas Abasiodiong</b>.<br/>Frontend Developer
                         </h1>
                         <p class="h3">I love building (and occasionally designing) exceptional digital experiences with modern technologies.</p>
                         <div class="btn-group">
@@ -17,7 +17,7 @@ const HeroSection = () => {
                     </div>
                     <div class="hero-img-wrapper">
                         <div class="img-box">
-                            <img class="hero-img" src="./Images/nsikak_akpan2.png" alt="this is me Nsikak Akpan"/>
+                            <img class="hero-img" src="./assets/thomas.jpy" alt="this is me Nsikak Akpan"/>
                         </div>
                         <div class="shape shape-1"></div>
                         <div class="shape shape-2"></div>

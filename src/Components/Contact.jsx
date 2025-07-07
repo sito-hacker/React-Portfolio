@@ -34,19 +34,19 @@ const Contact = () => {
             <p class="text-color">
               Hello there, feel free to contact me at any time, I will get back to you within two business days and if it's urgent, my social handle would be better in situations like this.
             </p>
-            <p class="text-color"><b>Email: builtbykaksy@gmail.com</b></p>
+            <p class="text-color"><b>Email: thomasabasiodiong13@gmail.com</b></p>
 
             <div class="social-link">
-              <a href="https://github.com/Kaksie-codes" class="icon-box github" target="_blank">
+              <a href="https://github.com/sito_hacker" class="icon-box github" target="_blank">
                 <ion-icon name="logo-github"></ion-icon>
               </a>
-              <a href="https://twitter.com/kaksie_codes" class="icon-box twitter" target="_blank">
+              <a href="https://twitter.com/sito_hacker" class="icon-box twitter" target="_blank">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
-              <a href="https://www.linkedin.com/in/nsikak-akpan/" class="icon-box facebook" target="_blank">
+              <a href="https://www.linkedin.com/in/thomas-abasiodiong/" class="icon-box facebook" target="_blank">
                 <ion-icon name="logo-linkedin"></ion-icon>
               </a>
-              <a href="https://web.facebook.com/engrnsikak.akpan.14" class="icon-box facebook" target="_blank">
+              <a href="https://web.facebook.com/thomasabasiodiong" class="icon-box facebook" target="_blank">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
               <a href="https://web.whatsapp.com/" class="icon-box facebook" target="_blank">

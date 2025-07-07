@@ -11,17 +11,17 @@ const Portfolio = () => {
                 </p>
                 <div class="portfolios">
                     <ProjectCard 
-                        title="Netflix v2.0" 
+                        title="NASA Mission Explorer" 
                         technologies="Here are some of my work that I've done in various technologies." 
                         imgUrl="img-1.jpg"
                     />
                     <ProjectCard 
-                        title="Amazon Clone" 
+                        title="NFT Marketplace" 
                         technologies="Built using HTML, CSS, bootstrap, SASS, react JS" 
                         imgUrl="img-2.jpg"
                     />
                     <ProjectCard 
-                        title="Web Note Application" 
+                        title="Educational Mnagement System" 
                         technologies="Built using HTML, CSS and JavaScript" 
                         imgUrl="img-6.jpg"
                     />
